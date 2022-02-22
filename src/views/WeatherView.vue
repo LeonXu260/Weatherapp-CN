@@ -62,9 +62,9 @@ export default {
                   doc.data().currentWeather.coord.lat
                 }&lon=${
                   doc.data().currentWeather.coord.lon
-                }&exclude=current,minutley,alerts&units=metric&lang='zh_cn'&appid=${
+                }&exclude=current,minutley,alerts&units=metric&appid=${
                   this.APIkey
-                }`
+                }&lang=zh_cn`
               )
               .then((res) => {
                 this.forecast = res.data;

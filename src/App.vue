@@ -73,7 +73,7 @@ export default {
               const response = await axios.get(
                 `https://api.openweathermap.org/data/2.5/weather?q=${
                   doc.doc.data().city
-                }&units=metric&lang='zh_cn'&appid=${this.APIkey}`
+                }&units=metric&appid=${this.APIkey}&lang=zh_cn`
               );
               const data = response.data;
               firebaseDB
