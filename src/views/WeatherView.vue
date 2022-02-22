@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <section class="main">
     <div v-if="loading" class="loading">
       <span></span>
     </div>
@@ -15,7 +15,7 @@
         <AdditionalInfo :currentWeather="currentWeather" />
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
