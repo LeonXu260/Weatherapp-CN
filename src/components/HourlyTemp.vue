@@ -1,5 +1,5 @@
 <template>
-  <div class="hour">
+  <section class="hour">
     <span>{{
       new Date(this.time.dt * 1000).toLocaleString("zh-CN", { hour: "numeric" })
     }}</span>
@@ -12,7 +12,7 @@
       />
     </span>
     <span>{{ Math.round(this.time.temp) }}&deg;</span>
-  </div>
+  </section>
 </template>
 
 <script>
