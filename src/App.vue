@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <section class="main">
     <div v-if="isLoading" class="loading">
       <span></span>
     </div>
@@ -29,7 +29,7 @@
         v-on:add-city="toggleModal"
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
