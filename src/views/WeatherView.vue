@@ -20,11 +20,11 @@
 
 <script>
 import axios from "axios";
-import db from "@/firebase/init";
-import CurrentWeather from "@/components/CurrentWeather";
-import HourlyWeather from "@/components/HourlyWeather";
-import WeeklyForecast from "@/components/WeeklyForecast";
-import AdditionalInfo from "@/components/AdditionalInfo";
+import db from "../firebase/init";
+import CurrentWeather from "../components/CurrentWeather";
+import HourlyWeather from "../components/HourlyWeather";
+import WeeklyForecast from "../components/WeeklyForecast";
+import AdditionalInfo from "../components/AdditionalInfo";
 export default {
   name: "WeatherView",
   props: ["APIkey", "isDay", "isNight"],

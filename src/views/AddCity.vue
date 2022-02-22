@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import City from "@/components/TheCity";
+import City from "../components/TheCity";
 
 export default {
   name: "AddCity",
