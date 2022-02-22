@@ -20,11 +20,11 @@
     </div>
     <div>
       <span>湿度</span>
-      <span>{{ this.currentWeather.main.humidity }} %</span>
+      <span>{{ this.currentWeather.main.humidity }}%</span>
     </div>
     <div>
       <span>云量</span>
-      <span>{{ this.currentWeather.clouds.all }} %</span>
+      <span>{{ this.currentWeather.clouds.all }}%</span>
     </div>
     <div>
       <span>风速</span>
