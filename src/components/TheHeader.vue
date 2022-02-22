@@ -20,7 +20,7 @@
           {{ new Date().toLocaleString("zh-CN", { month: "short" }) }}
           {{ new Date().toLocaleString("zh-CN", { day: "2-digit" }) }}</span
         >
-        <span>&deg; C</span>
+        <span>&deg;C</span>
       </nav>
     </header>
   </section>
