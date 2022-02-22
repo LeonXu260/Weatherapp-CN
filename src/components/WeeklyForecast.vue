@@ -1,11 +1,11 @@
 <template>
-  <div class="weekly-forecast">
+  <section class="weekly-forecast">
     <div class="container">
       <div class="daily" v-for="(day, index) in filteredList" :key="index">
         <DailyForecast :day="day" />
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
