@@ -28,7 +28,7 @@ For people who want to make changes to your project, it's helpful to have some d
 You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
 
 ## Authors and acknowledgment
-- [Leon Xu](https://gitlab.com/leonxu260)
+- [Leon Xu](https://github.com/leonxu260)
 - [Open Weather API](https://openweathermap.org)
 
 ## License
